@@ -1,0 +1,44 @@
+@import "./blocks/activity-list.scss";
+@import "./blocks/activity.scss";
+@import "./blocks/balet.scss";
+@import "./blocks/btn.scss";
+@import "./blocks/carusel.scss";
+@import "./blocks/events-list.scss";
+@import "./blocks/header.scss";
+@import "./blocks/main";
+@import "./blocks/nav-list.scss";
+@import "./blocks/navigation.scss";
+@import "./blocks/new.scss";
+@import "./blocks/news-block.scss";
+@import "./blocks/reviews.scss";
+@import "./vendors/scaffolding.scss";
+
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+  
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+  
+.library {
+    display: none; 
+}

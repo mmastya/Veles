@@ -1,0 +1,27 @@
+.nav-list {
+    min-width: 320px;
+    margin-top: 76px;
+    background-color: #FFFFFF;
+}
+
+.nav-list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;  
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #F9F9FC;
+}
+
+.nav-list__item-title {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #48494D;
+}

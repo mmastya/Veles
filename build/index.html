@@ -1,1 +1,202 @@
-hello world
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Новости Культуры</title>
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway&display=swap&subset=cyrillic" rel="stylesheet">
+  </head>
+  <body>
+    <div class="library">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-close" viewBox="0 0 30 30">
+<path d="M29 29L1 1M1 29L29 1L1 29Z" stroke="#D7D9DF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</symbol><symbol id="icon-small-arrow-up" viewBox="0 0 8 12">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.599976 1.4L5.19998 6L0.599976 10.6L1.99998 12L7.99998 6L1.99998 0L0.599976 1.4Z" fill="#48494D" fill-opacity="0.5"></path>
+</symbol></svg>
+    </div>
+    <header class="header">
+        <nav class="header__navigation navigation">
+            <button class="navigation__btn"></button>
+            <ul class="header__nav-list nav-list">
+                <li class="nav-list__item">
+                    <p class="nav-list__item-title">Новости</p>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+                <li class="nav-list__item">
+                    <p class="nav-list__item-title">Обзоры</p>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+                <li class="nav-list__item">
+                    <p class="nav-list__item-title">Музыка</p>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+                <li class="nav-list__item">
+                    <p class="nav-list__item-title">Архитектура</p>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+                <li class="nav-list__item">
+                    <P class="nav-list__item-title">Кино</P>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+                <li class="nav-list__item">
+                    <p class="nav-list__item-title">Театр</p>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+                <li class="nav-list__item">
+                    <p class="nav-list__item-title">Литература</p>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+                <li class="nav-list__item">
+                    <p class="nav-list__item-title">Религия</p>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+                <li class="nav-list__item">
+                    <p class="nav-list__item-title">Живопись</p>
+                    <svg class="nav-list__arrow-icon" width="12" height="7.5">
+                        <use xlink:href="#icon-small-arrow-up"></use>
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="header__title">Новости культуры</h1>
+    </header>
+    <section class="new">
+        <div class="new__wrapper">
+            <p class="new__anons">Новое</p>   
+            <P class="new__title">Подводный отель</P>
+            <p class="new__description">
+                Как известно, Дубай – город контрастов. Самые революционные 
+                и фантастические мечты архитекторов 
+                способен воплотить в жизнь этот 
+                мегаполис, построенный на нефти и за
+                счет  нефти
+            </p>
+        </div> 
+    </section>
+    <main class="main" role="main">
+        <section class="news-block">
+            <h2 class="news-block__title">Новости</h2>
+            <div class="news-block__preview">
+                <h3 class="news-block__preview-title">Новости культуры России и всего мира</h3>
+                <p class="news-block__preview-description">В минувшие выходные в Москве на фестивале «Оберег»<br>
+                    вручили первую премию Russian World Music Awards</p>
+            </div>
+            <ul class="news-block__news-list news-list">
+                <li class="news-list__item">
+                    <div class="news-list__item-img-wrap">
+                        <img class="news-list__item-img">
+                    </div>
+                    <p class="news-list__item-title">
+                        Открытие нового памятника Евгению Леонову
+                        <span class="news-list__item-info">
+                            10 сентября в 15:00 был открыт памятник писателю
+                        </span>
+                    </p>
+                </li>
+                <li class="news-list__item">
+                    <div class="news-list__item-img-wrap">
+                        <img class="news-list__item-img">
+                    </div>
+                    <p class="news-list__item-title">
+                        Беседы с писателями
+                        <span class="news-list__item-info">
+                            Русские писатели беседуют о важности искусства
+                        </span>
+                    </p>
+                </li>
+                <li class="news-list__item">
+                    <div class="news-list__item-img-wrap">
+                        <img class="news-list__item-img">
+                    </div>
+                    <p class="news-list__item-title">
+                        День и ночь св. Патрика: встреча старых друзей
+                        <span class="news-list__item-info">
+                            Не Джойсом единым живет Ирландия!  
+                        </span>
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="reviews">
+            <h2 class="reviews__title">Обзоры</h2>
+            <ul class="reviews__events-list events-list">
+                <li class="events-list__item">
+                    <div class="events-list__item-img-wrap">
+                        <img class="events-list__item-img">
+                    </div>    
+                    <p class="events-list__item-title">«Шальные годы» Монпарнаса</p>
+                    <p class="events-list__item-description">В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»</p>
+                </li>
+                <li class="events-list__item">
+                    <div class="events-list__item-img-wrap">
+                        <img class="events-list__item-img">
+                    </div>    
+                    <p class="events-list__item-title">Анатомия за 30 секунд</p>
+                    <p class="events-list__item-description">Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно-популярной литературе заметно вырос</p>                  
+                </li>
+                <li class="events-list__item">
+                    <div class="events-list__item-img-wrap">
+                        <img class="events-list__item-img">
+                    </div>    
+                    <p class="events-list__item-title">Русские балетные сезоны </p>
+                    <p class="events-list__item-description">В Новом Иерусалиме стартовал необычный культурно-развлекательный спектакль, который покажут в новом театре </p>                 
+                </li>
+                <li class="events-list__item">
+                    <div class="events-list__item-img-wrap">
+                        <img class="events-list__item-img">
+                    </div>    
+                    <p class="events-list__item-title">Сферические чудаки</p>
+                    <p class="events-list__item-description">Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды» </p>
+                </li>
+            </ul>
+            <div></div>
+        </section>
+        <section class="balet">
+            <div class="balet__wrapper">
+                <p class="balet__title">Ох, уж этот балет</p>
+                <button class="btn">Смотреть</button>
+            </div>
+        </section>
+        <section class="carusel">
+            <div class="carusel__wrapper">
+                <p class="carusel__title">Как все успевать</p>
+                <button class="btn">Смотреть</button>
+            </div>
+            <div></div>
+        </section>
+        <section class="activity">
+            <ul class="activity__activity-list activity-list">
+                <li class="activity-list__item">
+                    <p class="activity-list__item-title">воздушные шары</p>
+                    <button class="btn">Смотреть</button>
+                </li>
+                <li>
+                    <p class="activity-list__item-title">необычная фотосессия</p>
+                    <button class="btn">Смотреть</button>
+                </li>
+                <li>
+                    <p class="activity-list__item-title">выстовка птиц</p>
+                    <button class="btn">Смотреть</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+  </body>
+</html>

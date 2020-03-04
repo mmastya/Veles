@@ -1,0 +1,60 @@
+.news-list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.news-list__item-title {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "Playfair Display";
+    color: #000000;
+
+    &:hover {
+        color: #FF7931;
+    }
+}
+
+.news-list__item-info {
+    padding-top: 5px;
+    font-size: 10px;
+    line-height: 15px;
+    font-family: "Raleway";
+    color: #000000;
+}
+
+.news-list__item-img-wrap {
+    flex-basis: 50%;   
+}
+
+.news-list__item-img {
+    background-color: #C4C4C4;
+
+    &:hover {
+        &::before {
+            content: "";
+            background-image: url("../../img/vector.svg");
+        }
+    }
+}
+
+.news-list__item-text-wrapper {
+    flex-basis: 50%;
+}
+
+@media (min-width: 1440px) {
+    .news-list__item-img-wrap {
+        flex-basis: 127px;   
+    }
+
+    .news-list__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 26px;
+    }
+
+    .news-list__item-text-wrapper {
+        flex-basis: 132px;
+    }
+}

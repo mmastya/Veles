@@ -11,10 +11,14 @@
 @import "./blocks/new.scss";
 @import "./blocks/news-block.scss";
 @import "./blocks/reviews.scss";
+@import "./blocks/news-list.scss";
+@import "./blocks/footer.scss";
 @import "./vendors/scaffolding.scss";
+@import "./vendors/variables.scss";
 
 body {
     min-width: 320px;
+    max-width: 1440px;
     margin: 0;
     padding: 0;
     background-color: #ffffff; 
@@ -37,6 +41,11 @@ p {
 
 h1, h2, h3, h4 {
     margin: 0;
+}
+
+a, button {
+    cursor: pointer;
+    padding: 0;
 }
   
 .library {

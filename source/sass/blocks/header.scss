@@ -2,10 +2,26 @@
     margin-bottom: 25px;
     padding-left: 87px;
     padding-right: 87px;
+    padding-top: 40px;
     font-size: 25px;
     line-height: 33px;
     font-family: "Playfair Display";
     text-align: center;
+}
 
+@media (min-width: 1440px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .header__title {
+        order: -1;
+        margin-bottom: 46px;
+        padding-top: 35px;
+        font-size: 35px;
+        line-height: 47px;
+    }
 }
 

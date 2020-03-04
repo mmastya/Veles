@@ -1,0 +1,45 @@
+.balet {
+    margin-bottom: 50px;
+}
+
+.balet__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 41px;
+    align-items: center;
+    background-image: url("../../img/david-hofmann-588877-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.balet__title {
+    padding-top: 43px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: "Raleway";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media (min-width: 1440px) {
+    .balet__wrapper {
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 41px;
+        align-items: center;
+        padding-bottom: 0;
+        background-image: url("../../img/balet_desktop.png");
+    }
+
+    .balet__title {
+        padding-top: 71px;
+        padding-bottom: 69px;
+        padding-right: 47px;
+        font-size: 30px;
+        line-height: 35px;
+        font-family: "Raleway";
+    }
+}

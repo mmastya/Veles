@@ -1,8 +1,17 @@
+.new {
+    position: relative;
+}
+
 .new__wrapper {
     padding-top: 25px;
-    background-image: url("../img/Hotel-11.png");
+    background-image: url("../img/hotel_mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        background-image: url("../img/hotel_mobile@2x.png");
+        background-size: cover;
+    }
 }
 
 .new__anons {
@@ -41,4 +50,124 @@
     font-family: "Raleway";
     text-align: center;
     color: #FFFFFF;
+}
+
+.new__carusel-left-right {
+    display: none;
+}
+
+.new__carusel-button {
+    position: absolute;
+    display: flex;
+    bottom: 25px;
+    padding-left: 105px;
+}
+
+.new__carusel-button-item {
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    &--active {
+        background-color: #FFFFFF;
+    }
+}
+
+@media (min-width: 1440px) {
+    .new {
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 254px;
+            left: 733px;
+            width: 1px;
+            height: 42px;
+            background-color: #FFFFFF;
+        }
+    }
+
+    .new__wrapper {
+        padding-top: 62px;
+        padding-bottom: 48px;
+        background-image: url("../img/hotel_desktop.png");
+
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            background-image: url("../img/hotel_desktop@2x.png");
+            background-size: cover;
+        }
+    }
+
+    .new__title {
+        padding-top: 44px;
+        font-size: 72px;
+        line-height: 85px;
+    }
+    
+    .new__description {
+        padding-left: 492px;
+        padding-right: 492px;
+        padding-top: 139px;
+        padding-bottom: 0;
+        font-size: 14px;
+    }
+
+    .new__carusel-left-right {
+        display: block;
+    }
+
+    .new__carusel-button {
+        display: none;
+    }
+
+    .new__toggel-left {
+        position: absolute;
+        top: 56%;
+        left: 259px;
+        color: white;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 12px;
+            left: 89px;
+            width: 64px;
+            height: 1px;
+            background-color: #FFFFFF;
+        }
+    }
+
+    .new__toggel-img-left {
+        margin-left: 355px;
+    }
+
+    .new__toggel-right {
+        position: absolute;
+        top: 56%;
+        right: 222px;
+        color: white;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 12px;
+            right: 78px;
+            width: 64px;
+            height: 1px;
+            background-color: #FFFFFF;
+        }
+    }
+
+    .new__toggel-img-right {
+        margin-right: 390px;
+    }
+
+    .new__toggel-text {
+        font-family: "Raleway";
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
 }

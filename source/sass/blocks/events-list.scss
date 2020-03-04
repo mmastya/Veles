@@ -1,0 +1,118 @@
+.events-list {
+    padding-left: 17px;
+    padding-right: 16px;
+}
+
+.events-list__item {
+    margin-bottom: 30px;
+}
+
+.events-list__item-title {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 23px;
+    line-height: 31px;
+    font-family: "Playfair Display";
+    color: #000000;
+
+    &:hover {
+        color: #FF7931;
+    }
+}
+
+.events-list__item-description {
+    font-size: 14px;
+    line-height: 150%;
+    font-family: "Raleway";
+    color: #000000;
+}
+
+.events-list__item-img {
+    width: 100%;
+}
+
+.event-list__pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.event-list__pagination {
+    margin-top: 14px;
+}
+
+.event-list__pagination-item {
+    margin-right: 20px;
+
+    &:nth-child(1) {
+        margin-right: 10px;
+    }
+
+    &:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
+
+.event-list__pagination-item-number {
+    font-size: 18px;
+    line-height: 22px;
+    color: #48494D;
+
+    &--active {
+        color: #ff7931;
+        border: 1px solid #ff7931;
+        padding-left: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 13px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .events-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .events-list__item {
+        flex-basis: 48%;
+        margin-bottom: 37px;
+    }
+
+    .event-list__pagination {
+        margin-top: 14px;
+    }
+
+    .event-list__pagination-item {
+        margin-right: 20px;
+
+        &:first-child {
+            margin-right: 122px;
+        }
+
+        &:last-child {
+            margin-left: 122px;
+        }
+        
+    }
+
+    .event-list__pagination-item-number {
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        opacity: 0.4;
+
+        &--active {
+            font-size: 20px;
+            line-height: 24px;
+            opacity: 1;
+            padding: 0;
+            border: none;
+            border-bottom: 2px solid #FF7931;
+        }
+    }
+}

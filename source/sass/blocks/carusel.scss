@@ -1,0 +1,116 @@
+.carusel {
+    margin-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.carusel__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carusel__title {
+    position: absolute;
+    top: 34px;
+    left: 47px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "Raleway";
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.carusel__list-item {
+    display: none;
+    position: relative;
+
+    &--active {
+        display: block;
+    }
+
+    &:first-child {
+        display: none;
+    }
+
+    &:last-child {
+        display: none;
+    }
+    
+}
+
+.carusel__btn {
+    position: absolute;
+    top: 76px;
+    left: 70px;
+}
+
+.carusel__carusel-button {
+    display: flex;
+    padding-top: 15px;
+}
+
+.carusel__carusel-button-item {
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    &--active {
+        background-color: #000000;
+    }
+}
+
+@media (min-width: 1440px) {
+    .carusel {
+        order: 1;
+        flex-basis: 100%;
+        margin-bottom: 57px;
+        padding: 0;
+    }
+
+    .carusel__list {
+        display: flex;
+        align-items: center;
+    }
+
+    .carusel__list-item {
+        position: relative;
+        display: block;
+        margin-right: 30px;
+
+        &:first-child {
+            display: block;
+            margin-right: -38px;
+            z-index: 1; 
+        }
+
+        &:last-child {
+            display: block;
+            margin-left: -68px;
+            z-index: 0; 
+        }
+        
+    }
+
+    .carusel__btn {
+        position: absolute;
+        top: 64px;
+        left: 54px;
+    }
+
+    .carusel__title {
+        position: absolute;
+        top: 34px;
+        left: 47px;
+        letter-spacing: 0;
+    }
+
+    .carusel__carusel-button {
+        display: none;
+    }
+}

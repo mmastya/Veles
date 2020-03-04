@@ -1,0 +1,43 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 30px 9px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #FF9A64;
+    box-sizing: border-box;
+
+    &:hover {
+        border: 2px solid #FF7931;
+        background-color: #FF7931;
+    }
+
+    &--carusel {
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid #FFFFFF;
+
+        &:hover {
+            background-color: #FFFFFF;
+            border: 1px solid #FFFFFF;;
+        }
+    }
+}
+
+.btn__text {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "Raleway";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    &--carusel {
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+
+        &:hover {
+            color: #1A1C1C;
+        }
+    }
+}

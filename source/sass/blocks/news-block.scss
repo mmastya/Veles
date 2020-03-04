@@ -10,17 +10,24 @@
     line-height: 20px;
     color: #000;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .news-block__preview {
-    background-image: url("../img/1344287851_w640_h640_33_107.png");
+    background-image: url("../img/white_birds_mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        background-image: url("../img/white_birds_mobile@2x.png");
+        background-size: cover;
+    }
 }
 
 .news-block__preview-title {
     padding-left: 15px;
-    padding-right: 80px;
+    padding-right: 56px;
     padding-top: 194px;
     font-size: 22px;
     line-height: 27px;
@@ -36,4 +43,53 @@
     font-family: "Raleway";
     color: #000;
     text-align: left;
+}
+
+.news-block__news-list {
+    margin-top: 25px;
+}
+
+@media (min-width: 1440px) {
+    .news-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .news-block__title {
+        flex-basis: 100%;
+        padding-bottom: 25px;
+    }
+
+    .news-block__preview-title {
+        padding-top: 238px;
+        padding-left: 23px;
+        padding-right: 0;
+        font-size: 20px;
+    }
+
+    .news-block__preview {
+        flex-basis: 470px;
+        background-image: url("../img/white_birds_desktop.png");
+        background-size: auto;
+
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            background-image: url("../../img/white_birds_desktop@2x.png");
+            background-size: cover;
+        }
+    }
+
+    .news-block__news-list {
+        flex-basis: 271px;
+        margin-top: 0;
+    }
+
+    .news-block__preview-description {
+        padding-top: 10px;
+        padding-left: 23px;
+        font-size: 14px;
+        line-height: 21px;
+    }
 }

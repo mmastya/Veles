@@ -1,0 +1,43 @@
+.footer {
+    display: none;
+}
+
+@media (min-width: 1440px) {
+    .footer {
+        position: relative;
+        display: block;
+        padding-bottom: 20px;
+        padding-left: 133px;
+        padding-right: 135px;
+        background-color: #F7F7F7;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 181px;
+            left: 137px;
+            width: 1170px;
+            height: 1px;
+            background-color: rgba(0,0,0,.2);
+        }
+    }
+
+    .footer__title {
+        font-family: "Playfair Display";
+        text-align: center;
+        margin-bottom: 32px;
+        padding-top: 26px;
+        font-size: 35px;
+        line-height: 47px;
+    }
+
+    .footer__copyright {
+        margin-top: 27px;
+        font-size: 10px;
+        line-height: 15px;
+        font-family: "Raleway";
+        text-align: right;
+        color: #000000;
+        opacity: 0.2;
+    }
+}

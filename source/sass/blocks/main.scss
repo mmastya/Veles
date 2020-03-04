@@ -1,3 +1,20 @@
 .main {
     padding-top: 50px;
 }
+
+@media (min-width: 1440px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1170px;
+        margin: 0 auto;
+        padding-top: 99px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main__left-block {
+        flex-basis: 770px;
+        margin-right: 25px;
+    }
+}

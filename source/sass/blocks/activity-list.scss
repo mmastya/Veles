@@ -1,0 +1,97 @@
+.activity-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &:nth-child(3) {
+        margin-bottom: 60px;
+    }
+
+    &--balls {
+        padding-left: 62px;
+        padding-right: 63px;
+        background-image: url("../../img/drew-colins-1114440-unsplash.png");
+    }
+
+    &--girl {
+        padding-left: 57px;
+        padding-right: 56px;
+        background-image: url("../../img/jeremy-bishop-1114290-unsplash.png");
+    }
+
+    &--bird {
+        padding-left: 76px;
+        padding-right: 76px;
+        background-image: url("../../img/bogdan-pasca-1114196-unsplash.png");
+    }
+}
+
+.activity-list__item-title {
+    padding-bottom: 123px;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    &--black-color {
+       color: #1A1C1C; 
+    }
+
+    &--white-color {
+        color: #FFFFFF;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    .activity-list__item {
+        align-items: center;
+        margin-bottom: 33px;
+        padding-top: 48px;
+        padding-bottom: 30px;
+    
+        &:nth-child(3) {
+            margin-bottom: 0;
+        }
+    
+        &--balls {
+            padding-left: 67px;
+            padding-right: 68px;
+            background-image: url("../../img/balls_desktop.png");
+        }
+    
+        &--girl {
+            padding-left: 61px;
+            padding-right: 57px;
+            background-image: url("../../img/girl_desktop.png");
+        }
+    
+        &--bird {
+            padding-left: 87px;
+            padding-right: 87px;
+            background-image: url("../../img/bird_desktop.png");
+        }
+    }
+
+    .activity-list__item-title {
+        padding-bottom: 274px;
+        font-size: 30px;
+        line-height: 40px;
+
+        &--black-color {
+           color: #1A1C1C; 
+        }
+    
+        &--white-color {
+            color: #FFFFFF;
+        }
+        
+    }
+}

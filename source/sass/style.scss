@@ -1,3 +1,6 @@
+@import "./vendors/normalize.scss";
+@import "./vendors/variables.scss";
+@import "./vendors/scaffolding.scss";
 @import "./blocks/activity-list.scss";
 @import "./blocks/activity.scss";
 @import "./blocks/balet.scss";
@@ -13,12 +16,9 @@
 @import "./blocks/reviews.scss";
 @import "./blocks/news-list.scss";
 @import "./blocks/footer.scss";
-@import "./vendors/scaffolding.scss";
-@import "./vendors/variables.scss";
 
 body {
     min-width: 320px;
-    max-width: 1440px;
     margin: 0;
     padding: 0;
     background-color: #ffffff; 

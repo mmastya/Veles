@@ -18,13 +18,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("../../img/icon-burger.svg");
+    background-image: url("../img/icon-burger.svg");
     background-color: #FF7931;
     background-position: center;
 }
 
 .navigation--opened .navigation__btn {
-    background-image: url(../../img/icon-close.svg);
+    background-image: url(../img/icon-close.svg);
 }
 
 

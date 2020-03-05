@@ -4,7 +4,24 @@
 }
 
 .events-list__item {
+    position: relative;
     margin-bottom: 30px;
+
+    &:hover {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 288px;
+            height: 203px;
+            background-color: rgba(7, 6, 17, 0.7);
+            background-image: url("../img/vector.svg");
+            background-repeat: no-repeat;
+            background-position-x: 255px;
+            background-position-y: 20px;
+        }
+    }
 }
 
 .events-list__item-title {
@@ -81,6 +98,16 @@
     .events-list__item {
         flex-basis: 48%;
         margin-bottom: 37px;
+
+        &:hover {
+            &::before {
+                content: "";
+                width: 371px;
+                height: 203px;
+                background-position-x: 351px;
+                background-position-y: 10px;
+            }
+        }
     }
 
     .event-list__pagination {
@@ -105,6 +132,7 @@
         line-height: 17px;
         color: #000000;
         opacity: 0.4;
+        text-decoration: none;
 
         &--active {
             font-size: 20px;

@@ -8,9 +8,14 @@
     justify-content: center;
     padding-bottom: 41px;
     align-items: center;
-    background-image: url("../../img/david-hofmann-588877-unsplash.png");
+    background-image: url("../img/balet_mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        background-image: url("../../img/balet_mobile@2x.png");
+        background-size: cover;
+    }
 }
 
 .balet__title {
@@ -31,7 +36,12 @@
         padding-bottom: 41px;
         align-items: center;
         padding-bottom: 0;
-        background-image: url("../../img/balet_desktop.png");
+        background-image: url("../img/balet_desktop.png");
+
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            background-image: url("../img/balet_desktop@2x.png");
+            background-size: cover;
+        }
     }
 
     .balet__title {

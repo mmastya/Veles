@@ -15,19 +15,34 @@
     &--balls {
         padding-left: 62px;
         padding-right: 63px;
-        background-image: url("../../img/drew-colins-1114440-unsplash.png");
+        background-image: url("../img/balls_mobile.png");
+
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            background-image: url("../img/balls_mobile@2x.png");
+            background-size: cover;
+        }
     }
 
     &--girl {
         padding-left: 57px;
         padding-right: 56px;
-        background-image: url("../../img/jeremy-bishop-1114290-unsplash.png");
+        background-image: url("../img/girl_mobile.png");
+
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            background-image: url("../img/girl_mobile@2x.png");
+            background-size: cover;
+        }
     }
 
     &--bird {
         padding-left: 76px;
         padding-right: 76px;
-        background-image: url("../../img/bogdan-pasca-1114196-unsplash.png");
+        background-image: url("../img/bird_mobile.png");
+
+        @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+            background-image: url("../img/bird_mobile@2x.png");
+            background-size: cover;
+        }
     }
 }
 
@@ -64,19 +79,34 @@
         &--balls {
             padding-left: 67px;
             padding-right: 68px;
-            background-image: url("../../img/balls_desktop.png");
+            background-image: url("../img/balls_desktop.png");
+
+            @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+                background-image: url("../img/balls_desktop@2x.png");
+                background-size: cover;
+            }
         }
     
         &--girl {
             padding-left: 61px;
             padding-right: 57px;
-            background-image: url("../../img/girl_desktop.png");
+            background-image: url("../img/girl_desktop.png");
+
+            @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+                background-image: url("../img/girl_desktop@2x.png");
+                background-size: cover;
+            }
         }
     
         &--bird {
             padding-left: 87px;
             padding-right: 87px;
-            background-image: url("../../img/bird_desktop.png");
+            background-image: url("../img/bird_desktop.png");
+
+            @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+                background-image: url("../img/bird_desktop@2x.png");
+                background-size: cover;
+            }
         }
     }
 

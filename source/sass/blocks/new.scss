@@ -1,11 +1,14 @@
 .new {
-    position: relative;
     background-color: #00394d;
 }
 
 .new__wrapper {
+    position: relative;
     width: 320px;
     margin: 0 auto;
+}
+
+.new__slide {
     padding-top: 25px;
     background-image: url("../img/hotel_mobile.png");
     background-repeat: no-repeat;
@@ -81,6 +84,9 @@
 @media (min-width: 1440px) {
     .new__wrapper {
         width: 100%;
+    }
+
+    .new__slide {
         padding-top: 62px;
         padding-bottom: 48px;
         background-image: url("../img/hotel_desktop.png");
@@ -111,8 +117,8 @@
         &::before {
             content: "";
             position: absolute;
-            top: 254px;
-            left: 733px;
+            top: 54%;
+            left: 50%;
             width: 1px;
             height: 42px;
             background-color: #FFFFFF;
@@ -132,7 +138,7 @@
         &::before {
             content: "";
             position: absolute;
-            top: 12px;
+            top: 16px;
             left: 89px;
             width: 64px;
             height: 1px;
@@ -141,7 +147,7 @@
     }
 
     .new__toggel-img-left {
-        margin-left: 355px;
+        margin-left: 340px;
     }
 
     .new__toggel-right {
@@ -153,7 +159,7 @@
         &::before {
             content: "";
             position: absolute;
-            top: 12px;
+            top: 16px;
             right: 78px;
             width: 64px;
             height: 1px;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Новости Культуры</title>
     <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   </head>
   <body>
     <div class="library">
@@ -81,16 +82,65 @@
         <h1 class="header__title">Новости культуры</h1>
     </header>
     <section class="new">
-        <div class="new__wrapper">
-            <p class="new__anons">Новое</p>   
-            <P class="new__title">Подводный отель</P>
-            <p class="new__description">
-                Как известно, Дубай – город контрастов. Самые революционные 
-                и фантастические мечты архитекторов 
-                способен воплотить в жизнь этот 
-                мегаполис, построенный на нефти и за
-                счет  нефти
-            </p>
+        <div class="swiper-container new__wrapper">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide new__slide">
+                    <p class="new__anons">Новое</p>   
+                    <P class="new__title">Подводный отель</P>
+                    <p class="new__description">
+                        Как известно, Дубай – город контрастов. Самые революционные 
+                        и фантастические мечты архитекторов 
+                        способен воплотить в жизнь этот 
+                        мегаполис, построенный на нефти и за
+                        счет  нефти
+                    </p> 
+                </li>
+                <li class="swiper-slide new__slide">
+                    <p class="new__anons">Новое</p>   
+                    <P class="new__title">Подводный отель</P>
+                    <p class="new__description">
+                        Как известно, Дубай – город контрастов. Самые революционные 
+                        и фантастические мечты архитекторов 
+                        способен воплотить в жизнь этот 
+                        мегаполис, построенный на нефти и за
+                        счет  нефти
+                    </p>  
+                </li>
+                <li class="swiper-slide new__slide">
+                    <p class="new__anons">Новое</p>   
+                    <P class="new__title">Подводный отель</P>
+                    <p class="new__description">
+                        Как известно, Дубай – город контрастов. Самые революционные 
+                        и фантастические мечты архитекторов 
+                        способен воплотить в жизнь этот 
+                        мегаполис, построенный на нефти и за
+                        счет  нефти
+                    </p> 
+                </li>
+                <li class="swiper-slide new__slide">
+                    <p class="new__anons">Новое</p>   
+                    <P class="new__title">Подводный отель</P>
+                    <p class="new__description">
+                        Как известно, Дубай – город контрастов. Самые революционные 
+                        и фантастические мечты архитекторов 
+                        способен воплотить в жизнь этот 
+                        мегаполис, построенный на нефти и за
+                        счет  нефти
+                    </p> 
+                </li>
+                <li class="swiper-slide new__slide">
+                    <p class="new__anons">Новое</p>   
+                    <P class="new__title">Подводный отель</P>
+                    <p class="new__description">
+                        Как известно, Дубай – город контрастов. Самые революционные 
+                        и фантастические мечты архитекторов 
+                        способен воплотить в жизнь этот 
+                        мегаполис, построенный на нефти и за
+                        счет  нефти
+                    </p> 
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
             <div class="new__carusel-left-right">
                 <a class="new__toggel-left">
                     <span class="new__toggel-text">Предыдущая</span>
@@ -101,13 +151,6 @@
                     <span class="new__toggel-text">Следущая</span>
                 </a>
             </div>
-            <ul class="new__carusel-button">
-                <li class="new__carusel-button-item new__carusel-button-item--active"></li>
-                <li class="new__carusel-button-item"></li>
-                <li class="new__carusel-button-item"></li>
-                <li class="new__carusel-button-item"></li>
-                <li class="new__carusel-button-item"></li>
-            </ul>
         </div>   
     </section>
     <main class="main" role="main">
@@ -124,7 +167,7 @@
                     <div class="news-list__item-img-wrap">
                         <picture>
                             <source type="image/webp" srcset="./img/men.webp 1x, ./img/men@2x.webp 2x">
-                            <img class="news-list__item-img" src="./img/men.png" srcset="./img/men@2x.png 2x" alt="металлический бюст лысого мужчины">
+                            <img class="news-list__item-img" width="127" height="91" src="./img/men.png" srcset="./img/men@2x.png 2x" alt="металлический бюст лысого мужчины">
                         </picture>
                     </div>
                     <div class="news-list__item-text-wrapper">
@@ -140,7 +183,7 @@
                     <div class="news-list__item-img-wrap">
                         <picture>
                             <source type="image/webp" srcset="./img/people.webp 1x, ./img/people@2x.webp 2x">
-                            <img class="news-list__item-img" src="./img/people.png" srcset="./img/people@2x.png 2x" alt="мужчина и женщина">
+                            <img class="news-list__item-img" width="127" height="91" src="./img/people.png" srcset="./img/people@2x.png 2x" alt="мужчина и женщина">
                         </picture>
                     </div>
                     <div class="news-list__item-text-wrapper">
@@ -156,7 +199,7 @@
                     <div class="news-list__item-img-wrap">
                         <picture>
                             <source type="image/webp" srcset="./img/Patrick_s_Day.webp 1x, ./img/Patrick_s_Day@2x.webp 2x">
-                            <img class="news-list__item-img" src="./img/Patrick_s_Day.png" srcset="./img/Patrick_s_Day@2x.png 2x" alt="Символ праздника Святого Патрика">
+                            <img class="news-list__item-img" width="127" height="91" src="./img/Patrick_s_Day.png" srcset="./img/Patrick_s_Day@2x.png 2x" alt="Символ праздника Святого Патрика">
                         </picture> 
                     </div>
                     <div class="news-list__item-text-wrapper">
@@ -263,14 +306,9 @@
             </section>
         </div>
         <section class="carusel">
-            <div class="carusel__wrapper">
-                <ul class="carusel__list">
-                    <li class="carusel__list-item">
-                        <a>
-                            <img src="./img/carusel-left.svg">
-                        </a>
-                    </li>
-                    <li class="carusel__list-item carusel__list-item--active">
+            <div class="swiper-container carusel__wrapper">
+                <ul class="swiper-wrapper carusel__list">
+                    <li class="swiper-slide carusel__list-item">
                         <p class="carusel__title">Как все успевать</p>
                         <a class="carusel__btn btn btn--carusel">
                             <p class="btn__text  btn__text--carusel">Смотреть</p>
@@ -283,37 +321,26 @@
                             <img src="./img/main_mobile.png" srcset="./img/main_mobile@2x.png 2x" alt="мужчина сидить на скале и смотрит на наручные часы"> 
                         </picture>                    
                     </li>
-                    <li class="carusel__list-item">
+                    <li class="swiper-slide carusel__list-item">
                         <picture>
                             <source type="image/webp" srcset="./img/first.webp 1x, ./img/first@2x.webp 2x">
                             <img src="./img/first.png" srcset="./img/first@2x.png 2x" alt="красные горы в закатное время">
                         </picture>
                     </li>
-                    <li class="carusel__list-item">
+                    <li class="swiper-slide carusel__list-item">
                         <picture>
                             <source type="image/webp" srcset="./img/second.webp 1x, ./img/second@2x.webp 2x">
                             <img src="./img/second.png" srcset="./img/second@2x.png 2x" alt="синие спортивное покрытие для пола с белой разметкой фрагмент">
                         </picture>                     
                     </li>
-                    <li class="carusel__list-item">
+                    <li class="swiper-slide carusel__list-item">
                         <picture>
                             <source type="image/webp" srcset="./img/third.webp 1x, ./img/third@2x.webp 2x">
                             <img src="./img/third.png" srcset="./img/third@2x.png 2x" alt="пять скоростных самолетов летят по небу">
                         </picture>                    
                     </li>
-                    <li class="carusel__list-item"> 
-                        <a>
-                            <img src="./img/carusel-right.svg">
-                        </a>
-                    </li>
-                </ul> 
-                <ul class="carusel__carusel-button">
-                    <li class="carusel__carusel-button-item carusel__carusel-button-item--active"></li>
-                    <li class="carusel__carusel-button-item"></li>
-                    <li class="carusel__carusel-button-item"></li>
-                    <li class="carusel__carusel-button-item"></li>
-                    <li class="carusel__carusel-button-item"></li>
-                </ul> 
+                </ul>
+                <div class="swiper-pagination"></div> 
             </div>
         </section>
         <section class="activity">
@@ -402,22 +429,32 @@
         </ul>
         <p class="footer__copyright">© 2018 Новости культуры. Все права защищены.</p>
     </footer>
-  </body>
+    <script>
+        var navMain = document.querySelector('.navigation');
+        var navToggle = document.querySelector('.navigation__btn');
+      
+        //navMain.classList.remove('main-nav--nojs');
+      
+        navToggle.addEventListener('click', function() {
+          if (navMain.classList.contains('navigation--closed')) {
+            navMain.classList.remove('navigation--closed');
+            navMain.classList.add('navigation--opened');
+          } else {
+            navMain.classList.add('navigation--closed');
+            navMain.classList.remove('navigation--opened');
+          }
+        });
+    </script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          spaceBetween: 30,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+    </script>
+  </body> 
 </html>
 
-<script>
-    var navMain = document.querySelector('.navigation');
-    var navToggle = document.querySelector('.navigation__btn');
-  
-    //navMain.classList.remove('main-nav--nojs');
-  
-    navToggle.addEventListener('click', function() {
-      if (navMain.classList.contains('navigation--closed')) {
-        navMain.classList.remove('navigation--closed');
-        navMain.classList.add('navigation--opened');
-      } else {
-        navMain.classList.add('navigation--closed');
-        navMain.classList.remove('navigation--opened');
-      }
-    });
-  </script>

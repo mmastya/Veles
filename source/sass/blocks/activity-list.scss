@@ -13,8 +13,6 @@
     }
 
     &--balls {
-        padding-left: 62px;
-        padding-right: 63px;
         background-image: url("../img/balls_mobile.png");
 
         @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -24,8 +22,6 @@
     }
 
     &--girl {
-        padding-left: 57px;
-        padding-right: 56px;
         background-image: url("../img/girl_mobile.png");
 
         @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -35,8 +31,6 @@
     }
 
     &--bird {
-        padding-left: 76px;
-        padding-right: 76px;
         background-image: url("../img/bird_mobile.png");
 
         @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -54,6 +48,8 @@
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
+    padding-left: 62px;
+    padding-right: 63px;
 
     &--black-color {
        color: #1A1C1C; 
@@ -77,8 +73,8 @@
         }
     
         &--balls {
-            padding-left: 67px;
-            padding-right: 68px;
+            padding-left: 0;
+            padding-right: 0;
             background-image: url("../img/balls_desktop.png");
 
             @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -88,8 +84,8 @@
         }
     
         &--girl {
-            padding-left: 61px;
-            padding-right: 57px;
+            padding-left: 0;
+            padding-right: 0;
             background-image: url("../img/girl_desktop.png");
 
             @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -99,8 +95,8 @@
         }
     
         &--bird {
-            padding-left: 87px;
-            padding-right: 87px;
+            padding-left: 0;
+            padding-right: 0;
             background-image: url("../img/bird_desktop.png");
 
             @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {

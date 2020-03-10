@@ -4,18 +4,21 @@
 
 @media (min-width: 1440px) {
     .footer {
-        position: relative;
         display: block;
         padding-bottom: 20px;
-        padding-left: 133px;
-        padding-right: 135px;
+        background-color: #F7F7F7;
+    }
+
+    .footer__wrapper {
+        position: relative;
+        width: 1170px;
+        margin: 0 auto;
         background-color: #F7F7F7;
 
         &::before {
             content: "";
             position: absolute;
             top: 181px;
-            left: 137px;
             width: 1170px;
             height: 1px;
             background-color: rgba(0,0,0,.2);
